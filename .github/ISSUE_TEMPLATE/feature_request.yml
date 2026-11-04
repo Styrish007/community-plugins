@@ -45,6 +45,7 @@ body:
         - asus-gpu-mode
         - audio-sticker
         - audio-switcher
+        - autoclicker
         - awwwall
         - ayet-kosesi
         - bangumi-progress
@@ -94,6 +95,7 @@ body:
         - dnf-updater
         - dns-switcher
         - drive-health
+        - dropkitty
         - dropwall
         - ds4-color
         - emoji-picker
@@ -129,6 +131,7 @@ body:
         - imagemagick-clock
         - inhibit-idle-while-watching
         - input-echo-bar
+        - internal-keyboard
         - inventory-manager
         - ip-monitor
         - jalali_calendar
@@ -162,12 +165,15 @@ body:
         - media-island
         - media-lyrics
         - media-player-icon
+        - mic-denoise
         - mihomo-control
         - mimir
         - mini-docker
         - misr-quran-radio
+        - modernclock
         - murattal
         - mx-control
+        - mxmouse
         - nan-usage
         - ncs-visualizer
         - network-control
@@ -198,6 +204,7 @@ body:
         - obs-control
         - obs-integration
         - obsidian
+        - obsidian-vault-switcher
         - ocr
         - omniroute-quota
         - omp-launcher
@@ -248,7 +255,9 @@ body:
         - run-path
         - saved-desktop-widgets
         - screen-capture
+        - screen-mirror
         - screen-toolkit
+        - scroll-indicator
         - settings-to-nix
         - share-wifi
         - sharednd
@@ -283,6 +292,7 @@ body:
         - tailnet
         - tailscale
         - task-warrior
+        - terminal-widgets
         - theme-switcher
         - thinkpad-fan
         - thinkpad-led
@@ -294,13 +304,16 @@ body:
         - todoist-manager
         - token-monitor
         - topgrade-wrapper
+        - typing-stats
         - udiskie
         - um5606_fan_state
         - umami
         - umbriel-displays
         - umbriel-monitor-control
+        - umbriel-submap
         - undershell
         - upbeat
+        - usb-manager
         - usbeehive
         - vial_keymap
         - vidi
@@ -316,6 +329,7 @@ body:
         - wallpaper-switcher
         - wallpaper-widget
         - warp
+        - wayvibes
         - web-launcher
         - web-search
         - webapp-maker

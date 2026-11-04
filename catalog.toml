@@ -301,8 +301,8 @@ rev = "681e8ee0576211ce3d1f6bb1de8cb2244bfc20bd"
 [[plugin]]
 id = "nightwatch75/file-search"
 name = "File Search"
-version = "0.4.2"
-updated_at = 1793396850
+version = "0.5.0"
+updated_at = 1793736649
 added_at = 1784296152
 author = "nightwatch75"
 license = "MIT"
@@ -543,8 +543,8 @@ rev = "00da2cd2910b2c562ceebd9b3f72829884b16946"
 [[plugin]]
 id = "alexander/game-launcher"
 name = "Game Launcher"
-version = "1.5.2"
-updated_at = 1792983494
+version = "1.6.0"
+updated_at = 1793736746
 added_at = 1784595753
 author = "Alexander"
 license = "MIT"
@@ -1437,15 +1437,21 @@ rev = "f222cdee2be8a0c9ecfc3890b9f90d377429f534"
 [[plugin]]
 id = "gabedunn/voxtype"
 name = "Voxtype"
-version = "1.0.0"
-updated_at = 1786201675
+version = "1.1.0"
+updated_at = 1793800241
 added_at = 1786201675
 author = "Gabe Dunn"
 license = "MIT"
 icon = "microphone-2"
-description = "Shows and controls Voxtype's live dictation status from the bar."
+description = "Shows Voxtype status in the bar and an optional live audio overlay."
+plugin_api = 30
+tags = ["audio", "bar", "indicator", "recording", "utility", "panel", "service"]
+
+[[plugin.release]]
 plugin_api = 14
-tags = ["audio", "bar", "indicator", "recording", "utility"]
+version = "1.0.0"
+updated_at = 1786201675
+rev = "fe464e7301b2c14bba98b7460ae1710106985a07"
 
 [[plugin]]
 id = "weinguyen/shell-command"
@@ -2404,8 +2410,8 @@ tags = ["hyprland", "animation", "theming", "panel", "bar"]
 [[plugin]]
 id = "mellotanica/launcher-pass"
 name = "Launcher pass"
-version = "2.7.1"
-updated_at = 1793363494
+version = "2.7.2"
+updated_at = 1793622634
 added_at = 1788118014
 author = "Marco Melletti"
 license = "MIT"
@@ -2521,8 +2527,8 @@ tags = ["desktop", "utility"]
 [[plugin]]
 id = "aabidk20/yt-music"
 name = "YouTube Music"
-version = "0.4.1"
-updated_at = 1792983494
+version = "0.4.4"
+updated_at = 1793800177
 added_at = 1788315521
 author = "Aabid"
 license = "MIT"
@@ -3060,8 +3066,8 @@ rev = "7b1754a22ce76a92edb98fd498ad40aa4a0a3371"
 [[plugin]]
 id = "nightwatch75/claude-cockpit"
 name = "Claude Cockpit"
-version = "1.1.4"
-updated_at = 1792983494
+version = "1.1.5"
+updated_at = 1793734766
 added_at = 1789089483
 author = "nightwatch75"
 license = "MIT"
@@ -4110,8 +4116,8 @@ tags = ["bar", "sway", "indicator"]
 [[plugin]]
 id = "ayagmar/obs-control"
 name = "OBS Control"
-version = "1.0.0"
-updated_at = 1791074600
+version = "1.0.1"
+updated_at = 1793567498
 added_at = 1791074600
 author = "ayagmar"
 license = "MIT"
@@ -4514,15 +4520,21 @@ tags = ["bar", "panel", "indicator", "countdown"]
 [[plugin]]
 id = "tordex/xwayland"
 name = "XWayland Indicator"
-version = "1.0.0"
-updated_at = 1791761127
+version = "1.1.0"
+updated_at = 1793734787
 added_at = 1791761127
 author = "tordex"
 license = "MIT"
 icon = "circle-letter-x"
 description = "Indicator showing whether the active window is using XWayland in Umbriel"
-plugin_api = 28
+plugin_api = 45
 tags = ["umbriel", "bar", "utility"]
+
+[[plugin.release]]
+plugin_api = 28
+version = "1.0.0"
+updated_at = 1791761127
+rev = "6cb9117288c06ba950e9e34935059e2c0291f88b"
 
 [[plugin]]
 id = "omertahaoztop/neuralwatt"
@@ -4559,8 +4571,8 @@ tags = ["panel", "network", "privacy", "utility"]
 [[plugin]]
 id = "vinioli/openvpn3"
 name = "OpenVPN 3"
-version = "1.1.0"
-updated_at = 1793398227
+version = "1.2.0"
+updated_at = 1793657910
 added_at = 1791921361
 author = "vinioli"
 license = "MIT"
@@ -5114,8 +5126,8 @@ rev = "adf2587b57874a5b626ade6375ee9734b309843b"
 [[plugin]]
 id = "rylos/rbw-enhanced"
 name = "rbw-enhanced"
-version = "1.1.2"
-updated_at = 1793056609
+version = "1.1.3"
+updated_at = 1793634836
 added_at = 1793056609
 author = "Marco Ziliani"
 license = "MIT"
@@ -5166,13 +5178,13 @@ tags = ["hyprland", "bar", "panel", "productivity"]
 [[plugin]]
 id = "ishan0121/wallpaper-deck"
 name = "Wallpaper Deck"
-version = "1.2.1"
-updated_at = 1793319362
+version = "1.3.0"
+updated_at = 1793549015
 added_at = 1793071179
 author = "Ishan0121"
 license = "GPL-3.0"
 icon = "cards"
-description = "MTG-style animated card-deck wallpaper picker inspired by qs-wallpaperpicker."
+description = "Wallpaper picker with Wallhaven built-in, MTG-style animated card-deck."
 plugin_api = 43
 tags = ["wallpaper", "animation", "theming", "desktop"]
 
@@ -5192,8 +5204,8 @@ tags = ["shortcut", "service", "nixos", "utility"]
 [[plugin]]
 id = "edward/claude-operator"
 name = "Claude Operator"
-version = "0.7.4"
-updated_at = 1793226368
+version = "0.7.5"
+updated_at = 1793735798
 added_at = 1793111940
 author = "edward"
 license = "MIT"
@@ -5276,8 +5288,8 @@ tags = ["hardware", "shortcut", "system", "nixos"]
 [[plugin]]
 id = "dmopp/nixos-updates"
 name = "NixOS Updates"
-version = "1.1.0"
-updated_at = 1793478957
+version = "1.1.1"
+updated_at = 1793622822
 added_at = 1793405161
 author = "dMopp"
 license = "MIT"
@@ -5289,8 +5301,8 @@ tags = ["bar", "panel", "service", "system", "nixos", "indicator"]
 [[plugin]]
 id = "wennington/cc-usage"
 name = "Command Code Usage"
-version = "1.0.0"
-updated_at = 1793478920
+version = "1.0.1"
+updated_at = 1793549775
 added_at = 1793478920
 author = "wennington"
 license = "MIT"
@@ -5311,3 +5323,185 @@ icon = "music"
 description = "What's playing in Sonolith, in your bar: playback controls, lyrics, queue and your YouTube Music library."
 plugin_api = 43
 tags = ["bar", "panel", "service", "media", "music"]
+
+[[plugin]]
+id = "faminec/terminal-widgets"
+name = "Terminal Widgets"
+version = "2.2.2"
+updated_at = 1793622740
+added_at = 1793546917
+author = "faminec"
+license = "MIT"
+icon = "terminal-2"
+description = "Launch terminal apps in floating windows, with a card grid, per-command geometry and rotation."
+plugin_api = 43
+tags = ["utility", "system", "hyprland", "music", "launcher"]
+
+[[plugin]]
+id = "styrish/modernclock"
+name = "Modern Clock"
+version = "1.0.0"
+updated_at = 1793549106
+added_at = 1793549106
+author = "styrish"
+license = "GPL-3.0"
+icon = "clock"
+description = "A port of KDE Modern Clock to Noctalia on Wayland/Niri."
+plugin_api = 43
+tags = ["desktop", "clock", "time"]
+
+[[plugin]]
+id = "amirfarzamnia/autoclicker"
+name = "Auto Clicker"
+version = "1.0.0"
+updated_at = 1793567340
+added_at = 1793567340
+author = "amirfarzamnia"
+license = "MIT"
+icon = "click"
+description = "Repeats any ydotool command on an interval, driven entirely over IPC. Bar indicator while running."
+plugin_api = 24
+tags = ["utility"]
+
+[[plugin]]
+id = "uheplm/mxmouse"
+name = "MX Mouse"
+version = "1.0.14"
+updated_at = 1793567465
+added_at = 1793567465
+author = "ffngs"
+license = "MIT"
+icon = "mouse"
+description = "Configure MX Master gestures and per-window presets for Niri."
+plugin_api = 43
+tags = ["niri", "utility", "panel", "bar"]
+
+[[plugin]]
+id = "ezio-noir/umbriel-submap"
+name = "Umbriel Submap"
+version = "1.0.0"
+updated_at = 1793622662
+added_at = 1793622662
+author = "ezio-noir"
+license = "MIT"
+icon = "keyboard"
+description = "Display Umbriel submap as widget or OSD"
+plugin_api = 43
+tags = ["bar", "service", "indicator", "umbriel"]
+
+[[plugin]]
+id = "viksit-garg/wayvibes"
+name = "WayVibes"
+version = "1.0.1"
+updated_at = 1793623561
+added_at = 1793623561
+author = "viksit-garg"
+license = "MIT"
+icon = "keyboard"
+description = "Mechanical keyboard typing sounds for Noctalia on Wayland, powered by wayvibes."
+plugin_api = 43
+tags = ["audio", "bar", "panel", "utility"]
+
+[[plugin]]
+id = "rylos/usb-manager"
+name = "USB Manager"
+version = "1.0.0"
+updated_at = 1793635887
+added_at = 1793635887
+author = "Marco Ziliani"
+license = "MIT"
+icon = "usb"
+description = "USB drives, SD cards and optical media: mount, unlock, open, and remove them safely with one click."
+plugin_api = 43
+tags = ["bar", "panel", "service", "hardware", "system", "utility"]
+
+[[plugin]]
+id = "0b10headedcalf/obsidian-vault-switcher"
+name = "Obsidian Vault Switcher"
+version = "1.0.0"
+updated_at = 1793735057
+added_at = 1793735057
+author = "0b10headedcalf"
+license = "MIT"
+icon = "book"
+description = "Find and open Obsidian vaults from the launcher."
+plugin_api = 43
+tags = ["launcher", "productivity", "utility"]
+
+[[plugin]]
+id = "goldesquemoon/internal-keyboard"
+name = "Internal Keyboard"
+version = "1.2.1"
+updated_at = 1793736684
+added_at = 1793736684
+author = "goldesquemoon"
+license = "MIT"
+icon = "keyboard"
+description = "Turn the built-in laptop keyboard on or off from the control center, a bar widget, or a TTY."
+plugin_api = 39
+tags = ["hardware", "system", "utility", "shortcut"]
+
+[[plugin]]
+id = "goldesquemoon/mic-denoise"
+name = "Mic Denoise"
+version = "1.3.1"
+updated_at = 1793736720
+added_at = 1793736720
+author = "goldesquemoon"
+license = "MIT"
+icon = "microphone"
+description = "Toggle RNNoise microphone noise suppression from the control center or the bar."
+plugin_api = 24
+tags = ["audio", "utility"]
+
+[[plugin]]
+id = "goldesquemoon/screen-mirror"
+name = "Screen Mirror"
+version = "1.0.1"
+updated_at = 1793736701
+added_at = 1793736701
+author = "goldesquemoon"
+license = "MIT"
+icon = "screen-share"
+description = "Mirror the main niri output onto every other display, toggled from the control center or the bar."
+plugin_api = 24
+tags = ["niri", "system", "utility", "shortcut"]
+
+[[plugin]]
+id = "goldesquemoon/typing-stats"
+name = "Typing Stats"
+version = "1.2.0"
+updated_at = 1793746464
+added_at = 1793746464
+author = "goldesquemoon"
+license = "MIT"
+icon = "chart-bar"
+description = "A bar capsule that counts typed characters, with an interactive calendar heatmap and an optional window filter."
+plugin_api = 43
+tags = ["utility", "bar", "indicator"]
+
+[[plugin]]
+id = "83raiders/scroll-indicator"
+name = "Scroll Indicator"
+version = "1.1.0"
+updated_at = 1793799290
+added_at = 1793799290
+author = "83raiders"
+license = "MIT"
+icon = "dots"
+description = "Shows your column position in Hyprland's scrolling layout as dots on the bar."
+plugin_api = 49
+tags = ["hyprland", "indicator", "bar"]
+
+[[plugin]]
+id = "lowcache/dropkitty"
+name = "dropkitty"
+version = "0.1.0"
+updated_at = 1793800113
+added_at = 1793800113
+author = "lowcache"
+license = "MIT"
+icon = "terminal-2"
+description = "Quake-style drop-down terminal on kitty, with a bar toggle and a finished-command badge."
+plugin_api = 26
+tags = ["bar", "service", "productivity", "utility", "niri", "hyprland", "sway"]
